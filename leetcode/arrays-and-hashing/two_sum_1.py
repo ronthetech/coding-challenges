@@ -3,6 +3,7 @@ from typing import List
 
 class Solution:
   def twoSum(nums: List[int], target: int) -> List[int]:
+    # create an empty dictionary
     prevMap = {}
     
     for i, n in enumerate(nums):
